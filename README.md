@@ -1,6 +1,6 @@
 Hey there! Read below for installation guide.
 
-1. Install JSONReader, config, program.cs, and all the commands.
+1. Install all files.
 2. Upload all files into IDE of choice (VS22 Personal Recommendation)
 3. Make a folder for JSONReader and config.json named config for maintainability purposes.
 4. Seperate commands also into a seperate file.
