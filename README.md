@@ -5,6 +5,7 @@ Hey there! Read below for installation guide.
 3. Make a folder for JSONReader and config.json named config for maintainability purposes.
 4. Seperate commands also into a seperate file.
 5. Head over to config.json, where it says token, in the speechmarks after the colon, delete the text and paste YOUR bot token.
+-> To change the prefix, change the . in the speech marks to waht u like.
 6. Now start the bot up!
 
 
