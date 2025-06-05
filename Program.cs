@@ -56,6 +56,7 @@ namespace Moderation_Bot
             Commands.RegisterCommands<SnipeCommands>();
             Commands.RegisterCommands<LogsCommands>();
             Commands.RegisterCommands<TimeoutCommands>();
+            Commands.RegisterCommands<HelpCommands>();
 
             // Set the bot's activity
             Client.Ready += Client_Ready;
