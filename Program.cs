@@ -57,6 +57,11 @@ namespace Moderation_Bot
             Commands.RegisterCommands<LogsCommands>();
             Commands.RegisterCommands<TimeoutCommands>();
             Commands.RegisterCommands<HelpCommands>();
+            Commands.RegisterCommands<InfoCommands>();
+            Commands.RegisterCommands<AfkCommands>();
+
+            // After creating your DiscordClient (named 'discord'):
+            Client.MessageCreated += Moderation_Bot.commands.AfkCommands.HandleAfkMentions;
 
             // Set the bot's activity
             Client.Ready += Client_Ready;
